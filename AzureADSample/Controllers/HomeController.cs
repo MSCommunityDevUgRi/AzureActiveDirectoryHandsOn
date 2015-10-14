@@ -13,7 +13,7 @@ using Microsoft.Owin.Security.OpenIdConnect;
 
 namespace AzureADSample.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class HomeController : Controller
     {
         /// <summary>
