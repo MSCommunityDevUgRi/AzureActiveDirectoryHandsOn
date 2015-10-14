@@ -21,13 +21,13 @@ Repozitorij u svrhu predavanja MS Community Dev UG Rijeka
 				<add key="ida:PostLogoutRedirectUri" value="" />
 	7. Enable https on a project and setup virtual directory
 	8. Set [Authorize] attribute
-	9. Copy/paste code for rest of the stuff regarding Graph API
+	9. Copy/paste code regarding Graph API
 
 
 You'll maybe need this:
 <compilation debug="true" targetFramework="4.5" >
-	<assemblies>
-        <add assembly="System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-</assemblies>
+  <assemblies>
+     <add assembly="System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </assemblies>
 </compilation>
 
